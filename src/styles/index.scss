@@ -1,13 +1,31 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
+.div-principal{
+    background-color: black;
+    padding: 10px;
+    display: inline-block;
+    margin-left: 200rem;
+    margin-top: 60rem;
+    border-radius: 5%;
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+}
+.light{
+    width: 30rem;
+    height:30rem;
+    border-radius: 50%;
+}
+.red{
+    background-color: red;
+    margin: 0.2rem;
+}
+.yellow{
+    background-color: yellow;
+    margin: 0.2rem;
+}
+.green{
+    background-color: green;
+    margin: 0.2rem;
+}
+.glow{
+    box-shadow: 0px 0px 100px 4px #747DE8;
+}
